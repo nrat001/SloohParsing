@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # FITS Summary Parser
 
 A small command-line tool that walks a directory of astronomical FITS images, extracts key metadata from **FITS headers** and **filenames**, optionally **matches** each image to a target from a lookup table, and writes a tidy **CSV** and/or **Excel (XLSX)** summary.
@@ -176,3 +177,6 @@ MIT (recommendation). Update to your preferred license.
 ---
 
 If you want the tool to **always print the nearest separation** even on “NO MATCH”, or to **sort** the output by separation for QA, those are small tweaks—open an issue or PR!
+=======
+nrat001@SC448046:~/SloohParsing/src$ python3 sloohParser.py /home/nrat001/SloohParsing/data     /home/nrat001/SloohParsing/config/targetlist.csv     --csv /home/nrat001/SloohParsing/output/fits_summary.csv 
+>>>>>>> 673d5fdfce56caefa427e609ecd5860af8f38a31
