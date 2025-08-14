@@ -1,0 +1,1 @@
+nrat001@SC448046:~/SloohParsing/src$ python3 sloohParser.py /home/nrat001/SloohParsing/data     /home/nrat001/SloohParsing/config/targetlist.csv     --csv /home/nrat001/SloohParsing/output/fits_summary.csv 
