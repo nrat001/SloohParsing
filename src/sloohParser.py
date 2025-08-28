@@ -35,7 +35,7 @@ FILENAME_REGEX = re.compile(
     r'(?P<rah>\d{2})(?P<ram>\d{2})(?P<ras>\d{2})(?P<sign>[pmPM])(?P<dd>\d{2})(?P<dm>\d{2})(?P<ds>\d{2})_'
 )
 
-MATCH_TOL_ARCMIN_DEFAULT = 10.0
+MATCH_TOL_ARCMIN_DEFAULT = 1.0
 
 # Target name first in output order
 CSV_COLUMNS = [
