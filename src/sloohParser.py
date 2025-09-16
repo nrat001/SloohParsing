@@ -20,6 +20,9 @@ e.g.
   IRAS 23226-3843,23.4233889,-38.4469722
 """
 
+#Slooh-AU_FLI-KAF-16803
+#Slooh-CL_FLI-KAF-16803
+
 import argparse
 import csv
 import math
