@@ -31,11 +31,17 @@ CLI:
       [--filter FILTER_NAME] [--observatory OBSNAME]
       [--token-env ENVVAR]
 
-Typical:
+Typical (dry run upload test, no upload, no moving of files):
   export BHTOM_TOKEN='<your token>'
   python3 sloohParser.py ./data/NotUploaded ./lookup.csv \
     --xlsx ./fits_summary.xlsx \
     --upload --dry-run
+
+Just scan through the directory and generate csv file (no dry run, no upload, no move)
+python3 sloohParser.py ../data/NotUploaded/ ../config/targetlist.csv
+
+Hints: probably best to check the dry run photometry works before committing uploads.
+
 """
 
 import argparse
