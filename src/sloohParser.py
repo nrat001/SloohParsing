@@ -94,6 +94,7 @@ UPLOAD_URL = "https://uploadsvc2.astrolabs.pl/upload/"
 OBSERVER_TO_OBSNAME: Dict[str, str] = {
     "Slooh.com Chile Two Wide-Field Telescope": "Slooh-CL_FLI-KAF-16803",
     "Slooh.com Australia One Half Meter Telescope": "Slooh-AU_FLI-KAF-16803",
+    "Slooh.com Canary One Half Meter Telescope":"Slooh-Canary_KAF-09000"
     # Add Canary mappings as you learn them, e.g.:
     # "Slooh.com Canary One ...": "Slooh-??_....",
     # "Slooh.com Canary Two ...": "Slooh-??_....",
